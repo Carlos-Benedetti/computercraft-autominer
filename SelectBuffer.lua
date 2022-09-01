@@ -10,4 +10,4 @@ function SelectBuffer:load()
     turtle.select(self.slot)
 end
 
-return SelectBuffer
+-- return SelectBuffer

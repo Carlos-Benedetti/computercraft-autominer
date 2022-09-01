@@ -64,7 +64,9 @@ function VerticalDirectionStack:new(o, commingFrom)
     return o
 end
 
-return {
+DirectionStack = {
     HorizontalDirectionStack = HorizontalDirectionStack,
     VerticalDirectionStack = VerticalDirectionStack
 }
+
+-- return DirectionStack

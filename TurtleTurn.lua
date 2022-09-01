@@ -47,7 +47,7 @@ function TurtleTurn:new(o, turns, facing)
 
         end
     end
-    
+
     return o
 end
 
@@ -93,4 +93,4 @@ function TurtleTurn:face(direction)
 
 end
 
-return TurtleTurn
+-- return TurtleTurn

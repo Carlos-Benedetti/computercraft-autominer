@@ -10,4 +10,5 @@ FixedSlot = {
     ORE7_SLOT = 9,
     ORE8_SLOT = 10
 }
-return FixedSlot
+
+-- return FixedSlot

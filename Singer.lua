@@ -23,4 +23,4 @@ function Singer:singFoundSelectedAt()
 
 end
 
-return Singer
+-- return Singer

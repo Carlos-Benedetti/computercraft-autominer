@@ -6,4 +6,4 @@ Directions = {
     WEST = "LEFT",
     EAST = "RIGHT"
 }
-return Directions
+-- return Directions
