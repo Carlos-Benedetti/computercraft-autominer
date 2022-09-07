@@ -1,8 +1,3 @@
-local SelectBuffer = require('SelectBuffer')
-local FixedSlot = require('FixedSlot')
-local EnderChest = require('EnderChest')
-local Singer = require('Singer')
-
 local thisEnderchest = EnderChest:new()
 
 Fuel = {fThreshold=10,fSlot=FixedSlot.FUEL_SLOT}

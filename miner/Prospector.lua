@@ -1,8 +1,3 @@
-local Directions = require("Directions")
-local DirectionStack = require("DirectionStack")
-local Singer = require("Singer")
-local SelectBuffer = require("SelectBuffer")
-
 local ProspectorStatus = {
     IDLE = 1,
     FACING_START = 2,

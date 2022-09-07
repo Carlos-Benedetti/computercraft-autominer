@@ -1,12 +1,5 @@
-local Directions = require("Directions")
-local TurtleTurn = require("TurtleTurn")
-local Stack = require("Stack")
-
 initialFacing=Directions.NORTH
 thisTurleTurn = TurtleTurn:new(nil,0,initialFacing)
-
-
-
 
 prospectorPile = Stack:Create()
 

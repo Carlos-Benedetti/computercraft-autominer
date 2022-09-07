@@ -1,6 +1,3 @@
-local SelectBuffer = require('SelectBuffer')
-local FixedSlot = require('FixedSlot')
-
 EnderChest = {
     itemSlot = 1,
     placed = false
