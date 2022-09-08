@@ -1,0 +1,24 @@
+{
+  "name": "compcraf",
+  "version": "1.0.0",
+  "description": "## compile",
+  "main": "index.js",
+  "scripts": {
+    "test": "lua-distill -i ./filler/index -o ./filler.lua"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Benedetti/mine-cc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Benedetti/mine-cc/issues"
+  },
+  "homepage": "https://github.com/Carlos-Benedetti/mine-cc#readme",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "lua-distiller": "^0.2.5"
+  }
+}
