@@ -9,7 +9,7 @@ local Enderchest = require("EnderChest")
 
 local xMax = tonumber(arg[1]) or 3
 local yMax = tonumber(arg[2]) or 3
-local x = 0
+local x = -1
 local y = 0
 
 turtle = {
@@ -25,6 +25,7 @@ function turtle.dig()
 end
 
 function turtle.forward()
+    print("{X:" .. tostring(x) .. " Y:" .. tostring(y) .. "}")
     -- print('forward')
 end
 
@@ -32,15 +33,17 @@ while true do
     
     -- Fuel:FuelRoutine()
     -- Enderchest:fullInentoryRoutine()
-    if (y > yMax) then
+    if (y >= yMax) then
         break
     end
-    if (x > xMax) then
+    if(x >= xMax and (y+1) >= yMax) then
+        break
+    end
+    if (x >= xMax) then
         turleTurn:turnLeft()
         turtle.dig()
         turtle.forward()
         x = 1
-        print("{X:" .. tostring(x) .. " Y:" .. tostring(y) .. "}")
         y = y + 1
         turleTurn:turnLeft()
     else
@@ -48,7 +51,6 @@ while true do
         turtle.dig()
         turtle.forward()
         x = x + 1
-        print("{X:" .. tostring(x) .. " Y:" .. tostring(y) .. "}")
     end
 
 

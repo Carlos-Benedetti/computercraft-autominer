@@ -4,7 +4,7 @@
   "description": "## compile",
   "main": "index.js",
   "scripts": {
-    "test": "lua-distill -i ./filler/index -o ./filler.lua"
+    "start": "lua-distill --input ./filler/index.lua -o ./dist/filler.lua"
   },
   "repository": {
     "type": "git",
